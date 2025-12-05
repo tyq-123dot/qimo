@@ -1,0 +1,28 @@
+# 系统配置
+system:
+  upload_dir: "./uploads"
+  model_cache_dir: "./models"
+  vector_store_dir: "./faiss_db"
+  index_name: "default"
+
+# 文本分割配置
+text_splitter:
+  chunk_size: 800
+  chunk_overlap: 150
+  separators: ["\n\n", "\n", "。", "！", "？", "；", "，", " ", ""]
+
+# 向量化配置
+embedding:
+  model_name: "moka-ai/m3e-large"
+  batch_size: 32
+  normalize_embeddings: true
+
+# FAISS配置
+faiss:
+  use_gpu: true
+  search_k: 5
+
+# 文档处理配置
+document:
+  supported_extensions: [".pdf", ".txt", ".md", ".docx"]
+  max_file_size_mb: 50
