@@ -11,18 +11,3 @@
 - 🔄 **增量更新**: 支持文档增量添加
 - ⚙️ **配置驱动**: YAML配置文件管理
 
-## 安装
-
-1. 克隆仓库
-```bash
-git clone https://github.com/yourusername/chinese-rag-document-processor.git
-cd chinese-rag-document-processor
-
-2. 安装依赖
-```bash
-pip install -r requirements.txt
-
-3. 配置环境
-```bash
-# 编辑配置文件（可选）
-cp config.example.yaml config.yaml
