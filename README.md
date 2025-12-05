@@ -17,9 +17,11 @@
 ```bash
 git clone https://github.com/yourusername/chinese-rag-document-processor.git
 cd chinese-rag-document-processor
+
 2. 安装依赖
 ```bash
 pip install -r requirements.txt
+
 3. 配置环境
 ```bash
 # 编辑配置文件（可选）
